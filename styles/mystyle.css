@@ -1,0 +1,22 @@
+body {
+  background: black;
+  margin-top: 200px;
+  margin-bottom: 350px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr); 
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.card {
+  border-radius: 25px;
+  padding: 75px;
+  background: #C78E00;
+  text-align: center;
+  place-self: center stretch;
+}
+
