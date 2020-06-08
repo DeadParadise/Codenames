@@ -33,7 +33,7 @@ body {
   padding: 75px;
   background: #C78E00;
   text-align: center;
-  place-self: center stretch;
+  align-self: center stretch;
   font-weight: bold;
   font-size: 35px;
 }
