@@ -1,6 +1,29 @@
+var words1 = ['ATLANTIS', 'SPY', 'TIME', 'CZECH', 'KETCHUP', 'SHOE', 'THEATER', 'BANK', 'BED', 'TEMPLE', 'HEART', 'FENCE', 'HONEY', 'EGYPT', 'SINK', 'ROCK'];
+var word1 = words1[Math.floor(Math.random()*words1.length)];
 
+var words2 = ["BLOCK", "DOCTOR", "SOCK", "CHURCH", "WALL", "PAPER", "LOG", "POINT", "LAP", "EUROPE", "BOX", "MINE", "RAY", "ORANGE", "JET", "NAIL"];
+var word2 = words2[Math.floor(Math.random()*words2.length)];
+
+var words3 = ["AIR", "COOK", "CARROT", "CARD", "PLATE", "GHOST", "ENGLAND", "SHAKESPEARE", "VACUUM", "LEMON", "RABBIT", "TELESCOPE", "SPOT", "SPRING", "WITCH", "HIMALAYAS"];
+var word3 = words3[Math.floor(Math.random()*words3.length)];
+
+var words4 = ["BELT", "MERCURY", "EYE", "SCREEN", "PIRATE", "GROUND", "MILLIONAIRE", "TRIP", "UNICORN", "OPERA", "FILM", "CONDUCTOR", "TAP", "SUB", "STAR", "COURT"];
+var word4 = words4[Math.floor(Math.random()*words4.length)];
+
+var words5 = ["STICK", "HORN", "LUCK", "WELL", "TICK", "NEEDLE", "SWING", "PARACHUTE", "CROSS", "PYRAMID", "COPPER", "THIEF", "ROME", "MICROSCOPE", "DIAMOND", "BOND"];
+var word5 = words5[Math.floor(Math.random()*words5.length)];
+
+
+function wordFunction() {
+document.getElementById("card-1").textContent=word1;
+document.getElementById("card-2").textContent=word2;
+document.getElementById("card-3").textContent=word3;
+document.getElementById("card-4").textContent=word4;
+document.getElementById("card-5").textContent=word5;
+}
+
+//Code for changing card color
 var button = document.getElementById("card-1");
-
 
 
 button.addEventListener("click", function() {
